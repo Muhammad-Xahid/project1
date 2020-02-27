@@ -1,22 +1,57 @@
 body{
-    
+    margin: 0;
     font-family: 'Dancing Script', ;
-}
+ }
 h1{
     font-size: 60px;
     letter-spacing: 3px;
     font-style: italic;
     text-shadow: 8px 6px 5px rgb(40, 72, 255);
 }
+h2{
+    font-style: italic;
+    font-size: 30px;
+}
+p{
+    font-style: italic;
+}
+.third-heading{
+    font-style: italic;
+    font-size: 22px;
+}
 .name-highlight{
     color: rgb(197, 59, 240);
 }
 .half-width{
+     float: left;
     width: 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
     width: 100%;
+}
+.top{
+    background-image: url("images\top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    color: white;
+    background-image:linear-gradient(150deg, rgb(238, 43, 18) , rgb(163, 21, 245));
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 7px;
+    box-shadow: 7px  10px 40px rgb(33, 55, 252);;
+}
+.link-button:hover{
+    box-shadow: 7px  10px 30px rgb(248, 53, 53);;
+    background: linear-gradient(190deg, transparent, red);
+    color: black;
+}
+.dream-area{
+    background-image: url("images\dream-bg.png");
 }
