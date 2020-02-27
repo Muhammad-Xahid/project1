@@ -1,0 +1,22 @@
+body{
+    
+    font-family: 'Dancing Script', ;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-style: italic;
+    text-shadow: 8px 6px 5px rgb(40, 72, 255);
+}
+.name-highlight{
+    color: rgb(197, 59, 240);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
