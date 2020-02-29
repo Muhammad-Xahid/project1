@@ -55,3 +55,48 @@ section{
 .dream-area{
     background-image: url("images\dream-bg.png");
 }
+.full-a{
+    width: 100%;
+}
+#p{
+    width: 38%;
+    height: 60%;
+    font-size: 17px;
+   border-left: 8px solid red;
+    border-top:  1px solid rgb(233, 238, 233);
+    border-right:  1px solid rgb(217, 226, 217);
+    border-bottom:  1px solid rgb(230, 233, 230);
+    padding: 15px 15px 15px 15px;
+    box-shadow: 8px  10px 40px rgb(175, 147, 147);
+}
+#q{
+    width: 40%;
+    height: 60%;
+    font-size: 17px;
+    border-left: 8px solid red;
+    border-right:  1px solid green;
+    border-bottom:  1px solid green;
+    padding: 15px 15px 15px 15px;
+    margin-right: 45px;
+    box-shadow: 7px  10px 40px rgb(141, 151, 240);
+    float: right;
+    
+}
+.mid{
+    text-align: center;
+    font-size: 45px;
+    color: darkorange;
+    text-shadow: 10px 11px 42px rgb(255, 50, 50);
+}
+.mid:hover{
+  
+        text-align: center;
+        font-size: 45px;
+        color: darkorange;
+        text-shadow: 10px 11px 42px rgb(47, 255, 19);
+}
+.last{
+    text-align: center;
+    color: rgb(24, 23, 23);
+    font-size: 25px;
+}
