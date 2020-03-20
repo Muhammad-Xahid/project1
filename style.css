@@ -62,10 +62,9 @@ section{
     width: 38%;
     height: 60%;
     font-size: 17px;
-   border-left: 8px solid red;
-    border-top:  1px solid rgb(233, 238, 233);
-    border-right:  1px solid rgb(217, 226, 217);
-    border-bottom:  1px solid rgb(230, 233, 230);
+   border-left: 8px solid;
+   border-image: linear-gradient(180deg,blue,red);
+   border-image-slice: 1;
     padding: 15px 15px 15px 15px;
     box-shadow: 8px  10px 40px rgb(175, 147, 147);
 }
@@ -73,9 +72,9 @@ section{
     width: 40%;
     height: 60%;
     font-size: 17px;
-    border-left: 8px solid red;
-    border-right:  1px solid green;
-    border-bottom:  1px solid green;
+    border-left: 8px solid;
+   border-image: linear-gradient(180deg,rgb(21, 255, 0),rgb(255, 0, 212));
+   border-image-slice: 1;
     padding: 15px 15px 15px 15px;
     margin-right: 45px;
     box-shadow: 7px  10px 40px rgb(141, 151, 240);

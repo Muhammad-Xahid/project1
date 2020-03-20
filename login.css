@@ -1,0 +1,57 @@
+body{
+    background-image: url("images/f1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   overflow: hidden;
+}
+.all{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    width: 100%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-bottom: 3px solid rgb(204, 235, 205);
+    width: 9.1%;
+}
+.input1{
+    padding: 5px 7px 7px 0px;
+    margin: 5px 7px 7px 0px;
+    border-bottom: 2px solid red;
+    width: 14%;
+}
+.input1 input{
+    outline: none;
+    border: none;
+    padding: 0px 5px 5px 0px;
+    margin: 0px 5px -8px 0px;
+    color: rgb(7, 255, 61);
+    font-size: 15px;
+    background: none;
+}
+.input1 ::placeholder{
+    color: red;
+    
+}
+.input2{
+    padding: 5px 5px 5px 0px;
+    margin: 0px 5px 5px 0px;
+    border-bottom: 2px solid red;
+    width: 14%;
+}
+.input2 input{
+    outline: none;
+    border: none;
+    padding: 5px 5px 5px 0px;
+    margin: 5px 5px -8px 0px;
+    color: rgb(7, 255, 61);
+    font-size: 15px;
+    background: none;
+}
+.input2 ::placeholder{
+    color: red;
+    
+}
